@@ -52,7 +52,7 @@ section {
     scroll-margin-top: 80px;   /*controlar o enquadramento do scroll */
 }
 
-.text-small {
+.textsmall {
     font-size: 1rem;
     font-weight: 300;
 }
@@ -70,7 +70,7 @@ section {
     text-decoration: none;
 }
 
-.button.button-gradient {
+.button.buttongradient {
     background-color: transparent;
     background-position: 100%;
     outline: 2px solid var(--secondary-color);
@@ -90,15 +90,15 @@ section {
     /* z-index: 1; */
 }
 
-.menu-logo {
+.menulogo {
     max-width: 160px;
 }
 
-.menu-logo-image {
+.menulogoimage {
     width: 100%;
 }
 
-.menu-item {
+.menuitem {
     margin-right: 24px;
     font-weight: 700;
     font-size: 0.75rem;
@@ -108,12 +108,12 @@ section {
     letter-spacing: 3px;
 }
 
-.menu-item-button {
+.menuitembutton {
     padding: 8px 26px;
     transition: background 1s, color 1s;
 }
 
-.menu-item-button:hover {
+.menuitembutton:hover {
     background-color: var(--btn-link-bg-color);
     color: var(--btn-link-color);
 }
@@ -129,7 +129,7 @@ section {
 
 /* footer */
 
-.footer-link {
+.footerlink {
     font-family: 'raleway', sans-serif;
     font-weight: bold;
     color: var(--link-color);
@@ -141,7 +141,7 @@ section {
     transition: color 0.5s;
 }
 
-.footer-link:hover {
+.footerlink:hover {
     color: var(--text-color);
 }
 
@@ -151,7 +151,7 @@ section {
     margin: 0 16px;
 }
 
-.footer-social {
+.footersocial {
     display: flex;
     align-items: center;
     justify-content: center;
