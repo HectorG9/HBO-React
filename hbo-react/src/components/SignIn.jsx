@@ -1,9 +1,11 @@
+import style from '../css/signin.module.css';
+
 
 export default function SignIn() {
   return (
-    <div>
+    <div className={style.bgf}>
       
-      
+
     </div>
   )
 }
