@@ -1,0 +1,122 @@
+body {
+    background-image: url("../images/background-movies-series.png");
+    background-size: cover;
+    height: 100vh;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+ 
+  /* Peguei do styles.global */
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
+}
+  /* Peguei do styles.global */
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", cursive;
+    width: 100%;
+    height: 70%;
+    padding: 24px;
+  }
+  
+  .menu {
+    position: relative;
+  }
+  
+  .login {
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--form-bg-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px;
+  }
+  
+  .logintitle {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+  }
+  
+  .loginlabel {
+    text-align: left;
+  }
+  
+  .loginfield {
+    background: var(--form-field-bg-color);
+    border: var(--form-field-border);
+    border-radius: 8px;
+    color: var(--text-color);
+    padding: 16px;
+    font-size: 1rem;
+  }
+  
+  .loginfield::placeholder {
+    color: var(--form-field-placeholder);
+  }
+  
+  .loginfield:invalid {
+    border-color: var(--form-field-error);
+  }
+  
+  .loginactions {
+    margin-top: 24px;
+    text-align: left;
+  }
+  
+  .loginlink {
+    color: var(--link-color);
+    text-decoration: none;
+    margin-left: 24px;
+    font-weight: bold;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 480px) {
+    body {
+      height: auto;
+    }
+  
+    .loginactions .button {
+      display: block;
+      margin-bottom: 24px;
+    }
+  
+    .loginlink {
+      margin: 0;
+    }
+  }
+
+
+  /* Peguei do style.global */
+
+.button {
+  background-color: var(--tertiary-color);
+  border-radius: 500px;
+  padding: 16px 40px;
+  cursor: pointer;
+  color: var(--text-color);
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+.button .buttongradient {
+  background-color: transparent;
+  background-position: 100%;
+  outline: 2px solid var(--secondary-color);
+  transform: scale(1.05);
+}
