@@ -1,12 +1,12 @@
 
+import SignIn from './components/SignIn'
 import './styles.global.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+    <SignIn/> 
     </>
   )
 }
