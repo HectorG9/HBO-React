@@ -1,4 +1,4 @@
-import style from './signin.module.css';
+import style from '../css/signin.module.css';
 import { Link } from 'react-router-dom';
 
 export default function principal() {
@@ -12,7 +12,7 @@ export default function principal() {
             <input className={style.loginfield} type="email" name="email" id="email" autoComplete="Username" placeholder="Endereço de e-mail" />
             <input className={style.loginfield} type="password" name="password" id="password" autoComplete="current-password" placeholder="Senha" minLength="8" maxLength="10" />
             <div className={style.loginactions}>
-              <button className={style.button_buttongradient} type="submit">Entrar</button>
+              <button className={style.button} type="submit">Entrar</button>
               
                 <Link className={style.loginlink} to="/">Esqueceu a senha?</Link>
 

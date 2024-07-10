@@ -1,14 +1,54 @@
-@import "../style.global.css";
-
 body {
-
     background-image: url("../images/background-movies-series.png");
     background-size: cover;
     height: 100vh;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+ 
+  /* Peguei do styles.global, da Footer */
 
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
 }
 
-.content {
+
+.footer-link {
+  font-family: 'raleway', sans-serif;
+  font-weight: bold;
+  color: var(--link-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 14px;
+  letter-spacing: 2px;
+  font-size: 0.875rem;
+  transition: color 0.5s;
+}
+
+.footer-link:hover {
+  color: var(--text-color);
+}
+
+.footer-legal {
+  font-size: 0.75rem;
+  color: var(--link-color);
+  margin: 0 16px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+  gap: 40px;
+}
+
+  /* Peguei do styles.global */
+
+  .content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,8 +57,12 @@ body {
     height: 70%;
     padding: 24px;
   }
-
-.login {
+  
+  .menu {
+    position: relative;
+  }
+  
+  .login {
     width: 100%;
     max-width: 800px;
     background-color: var(--form-bg-color);
@@ -39,9 +83,8 @@ body {
   .loginlabel {
     text-align: left;
   }
-
   
-.loginfield {
+  .loginfield {
     background: var(--form-field-bg-color);
     border: var(--form-field-border);
     border-radius: 8px;
@@ -71,8 +114,8 @@ body {
   }
   
   /* Media Queries */
-
-@media screen and (max-width: 480px) {
+  
+  @media screen and (max-width: 480px) {
     body {
       height: auto;
     }
@@ -86,3 +129,29 @@ body {
       margin: 0;
     }
   }
+
+
+  /* Peguei do styles.global, button da Principal */
+
+.button {
+  background-color: var(--tertiary-color);
+  border-radius: 500px;
+  padding: 16px 40px;
+  cursor: pointer;
+  color: var(--text-color);
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+.button:hover{
+
+  background-color: var(--secondary-color);
+  background-position: 100%;
+  outline: 2px solid var(--secondary-color);
+  transform: scale(1.05);
+  transition: 0.5s;
+
+}
