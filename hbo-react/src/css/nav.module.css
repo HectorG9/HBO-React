@@ -30,3 +30,13 @@
     letter-spacing: 3px;
 }
 
+.menuItemButton {
+    padding: 8px 26px;
+    transition: background 1s, color 1s;
+}
+
+.menuItemButton:hover {
+    background-color: var(--btn-link-bg-color);
+    color: var(--btn-link-color);
+} 
+

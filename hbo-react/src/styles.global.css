@@ -71,6 +71,8 @@ section {
     outline: 2px solid var(--secondary-color);
     transform: scale(1.05);
 } 
+
+
 .headerButton { 
     animation: wiggle 2.2s linear infinite;
 }
@@ -106,15 +108,15 @@ section {
     letter-spacing: 3px;
 }
 */
-.menu-item-button {
+/* .menuItemButton {
     padding: 8px 26px;
     transition: background 1s, color 1s;
 }
 
-.menu-item-button:hover {
+.menuItemButton:hover {
     background-color: var(--btn-link-bg-color);
     color: var(--btn-link-color);
-} 
+}  */
 
 /* container */
 

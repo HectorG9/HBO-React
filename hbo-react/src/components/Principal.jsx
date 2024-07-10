@@ -1,5 +1,11 @@
 // import Principal from './Header';
 // import Footer from './Footer';
+import hbodef from '/Senai-frontend/HBO-React/hbo-react/src/images/hbo-default_0.webp';
+import maxdef from '/Senai-frontend/HBO-React/hbo-react/src/images/MAX-Default.webp';
+import dcdef from '/Senai-frontend/HBO-React/hbo-react/src/images/DC_Default.webp';
+import wbdef from '/Senai-frontend/HBO-React/hbo-react/src/images/WB-Default.webp';
+import cndef from '/Senai-frontend/HBO-React/hbo-react/src/images/CN-Default.webp';
+import ucldef from '/Senai-frontend/HBO-React/hbo-react/src/images/UCL-Default.webp';
 import styles from '../css/principal.module.css';
 export default function Principal() {
   return (
@@ -34,7 +40,7 @@ export default function Principal() {
                       </li>
                     </ul>
                   </div>
-                  <button className={styles.button & styles.buttonGradient}>Escolher plano mobile</button>
+                  <button className={styles.button}>Escolher plano mobile</button>
                 </div>
                 <div className={styles.subscriptionCard}>
                   <div>
@@ -63,31 +69,31 @@ export default function Principal() {
                       </li>
                     </ul>
                   </div>
-                  <button className={styles.button & styles.buttonGradient}>Escolher o Plano Multitelas</button>
+                  <button className={styles.button}>Escolher o Plano Multitelas</button>
                 </div>
               </div>
             </div>
         </section>
-        <section id="contents" className={styles.contents & styles.container}>
+        <section id="contents" className={styles.container}>
             <h2 className={styles.title}>Descubra novos universos</h2>
             <div className={styles.contentsContainer}>
               <div className={styles.contentsCard}>
-                {/* <img className={styles.contents-image} src="assets/images/hbo-default_0.webp" alt="HBO"/> */}
+               <img className={styles.contentsImage} src={hbodef} alt="HBO"/> 
               </div>
               <div className={styles.contentsCard}>
-                {/* <img className={styles.contents-image} src="assets/images/MAX-Default.webp" alt="Max Originals"/> */}
+                <img className={styles.contentsImage} src={maxdef} alt="Max Originals"/> 
               </div>
               <div className={styles.contentsCard}>
-                {/* <img className={styles.contentsImage} src="assets/images/DC_Default.webp" alt="DC"/> */}
+                <img className={styles.contentsImage} src={dcdef} alt="DC"/> 
               </div>
               <div className={styles.contentsCard}>
-                {/* <img className={styles.contentsImage} src="assets/images/WB-Default.webp" alt="Warner Bross"/> */}
+                <img className={styles.contentsImage} src={wbdef}alt="Warner Bross"/> 
               </div>
               <div className={styles.contentsCard}>
-                {/* <img className={styles.contentsImage} src="assets/images/CN-Default.webp" alt="Cartoon Network"/> */}
+                <img className={styles.contentsImage} src={cndef} alt="Cartoon Network"/> 
               </div>
               <div className={styles.contentsCard}>
-                {/* <img className={styles.contentsImage} src="assets/images/UCL-Default.webp" alt="UEFA Champions League"/> */}
+                <img className={styles.contentsImage} src={ucldef} alt="UEFA Champions League"/> 
               </div>
             </div>
         </section>

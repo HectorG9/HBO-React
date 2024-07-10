@@ -139,3 +139,36 @@ main {
     object-position: center;
     transition: opacity 2s;
 }
+
+/* criando configurações de transição para cada imagem default: quando passar o mouse em cima da imagem, aparecerá uma outra imagem no lugar */
+/* HBO content */
+
+.contentsCard:nth-child(1):hover {
+    background-image: url('../images/hbo-hover_0.webp');
+}
+
+/* Max Originals Content */
+.contentsCard:nth-child(2):hover {
+    background-image: url('../images/MAX-Hover.webp');
+}
+
+/* DC Content */
+.contentsCard:nth-child(3):hover {
+    background-image: url('../images/DC-Hover.webp');
+}
+
+/* WB Content */
+.contentsCard:nth-child(4):hover {
+    background-image: url('../images/WB-Hover.webp');
+}
+
+/* CN Content */
+.contentsCard:nth-child(5):hover {
+    background-image: url('../images/CN-Hover.png');
+}
+
+/* UEFA Content */
+
+.contentsCard:nth-child(6):hover {
+    background-image: url('../images/UCL-Hover.webp');
+}

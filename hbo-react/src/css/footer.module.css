@@ -28,3 +28,9 @@
     margin: 80px;
     gap: 40px;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
+}
