@@ -1,13 +1,13 @@
-
-import SignIn from './components/SignIn'
-import './styles.global.css'
+import'./style.global.css';
+import SignIn from './components/SignIn.jsx'
 
 function App() {
-
   return (
-    <>
-    <SignIn/> 
-    </>
+    <div>
+
+       <SignIn/>
+
+    </div>
   )
 }
 

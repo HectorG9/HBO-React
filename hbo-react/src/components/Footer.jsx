@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-
-import style from './signin.module.css'
+import style from '../css/signin.module.css'
 
 
 export default function footer() {
@@ -20,6 +19,7 @@ export default function footer() {
           </Link>
           <Link to="/images">
             <img src="assets/images/logo_0.png" alt="HBO Max" />
+
           </Link>
           </Link>
         </div>
