@@ -1,22 +1,14 @@
-body {
-    background-image: url("../images/background-movies-series.png");
-    background-size: cover;
-    height: 100vh;
-    background-color: var(--primary-color);
-    color: var(--text-color);
-  }
- 
-  /* Peguei do styles.global, da Footer */
+/* Peguei do styles.global, da Footer */
 
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 24px;
-    text-align: center;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  text-align: center;
 }
 
 
-.footer-link {
+.footerlink {
   font-family: 'raleway', sans-serif;
   font-weight: bold;
   color: var(--link-color);
@@ -28,17 +20,21 @@ body {
   transition: color 0.5s;
 }
 
-.footer-link:hover {
+.footerlink:hover {
   color: var(--text-color);
 }
 
-.footer-legal {
+.footerlegal {
   font-size: 0.75rem;
   color: var(--link-color);
   margin: 0 16px;
+
+  /* do textsmall */
+  font-size: 1rem;
+  font-weight: 300;
 }
 
-.footer-social {
+.footersocial {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,92 +42,120 @@ body {
   gap: 40px;
 }
 
-  /* Peguei do styles.global */
+.footersocialink {
 
-  .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Quicksand", cursive;
-    width: 100%;
-    height: 70%;
-    padding: 24px;
+  font-family: 'raleway', sans-serif;
+  font-weight: bold;
+  color: var(--link-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 14px;
+  letter-spacing: 2px;
+  font-size: 0.875rem;
+  transition: color 0.5s;
+
+}
+
+
+/* Peguei do styles.global */
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", cursive;
+  width: 100%;
+  height: 70%;
+  padding: 24px;
+}
+
+.menu {
+  position: relative;
+}
+
+.login {
+  width: 100%;
+  max-width: 800px;
+  background-color: var(--form-bg-color);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px;
+}
+
+.logintitle {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+}
+
+.loginlabel {
+  text-align: left;
+}
+
+.loginfield {
+  background: var(--form-field-bg-color);
+  border: var(--form-field-border);
+  border-radius: 8px;
+  color: var(--text-color);
+  padding: 16px;
+  font-size: 1rem;
+}
+
+.loginfield::placeholder {
+  color: var(--form-field-placeholder);
+}
+
+.loginfield:invalid {
+  border-color: var(--form-field-error);
+}
+
+.loginactions {
+  margin-top: 24px;
+  text-align: left;
+}
+
+.loginlink {
+  font-family: 'raleway', sans-serif;
+  color: var(--link-color);
+  text-decoration: none;
+  margin-left: 24px;
+  font-weight: bold;
+}
+
+.loginlink:hover {
+
+  color: var(--text-color);
+  text-transform: uppercase;
+  margin: 0 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transform: scale(1.05);
+  transition: 0.5s;
+
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+  body {
+    height: auto;
   }
-  
-  .menu {
-    position: relative;
-  }
-  
-  .login {
-    width: 100%;
-    max-width: 800px;
-    background-color: var(--form-bg-color);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    padding: 40px;
-  }
-  
-  .logintitle {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-size: 1.25rem;
+
+  .loginactions .button {
+    display: block;
     margin-bottom: 24px;
   }
-  
-  .loginlabel {
-    text-align: left;
-  }
-  
-  .loginfield {
-    background: var(--form-field-bg-color);
-    border: var(--form-field-border);
-    border-radius: 8px;
-    color: var(--text-color);
-    padding: 16px;
-    font-size: 1rem;
-  }
-  
-  .loginfield::placeholder {
-    color: var(--form-field-placeholder);
-  }
-  
-  .loginfield:invalid {
-    border-color: var(--form-field-error);
-  }
-  
-  .loginactions {
-    margin-top: 24px;
-    text-align: left;
-  }
-  
+
   .loginlink {
-    color: var(--link-color);
-    text-decoration: none;
-    margin-left: 24px;
-    font-weight: bold;
+    margin: 0;
   }
-  
-  /* Media Queries */
-  
-  @media screen and (max-width: 480px) {
-    body {
-      height: auto;
-    }
-  
-    .loginactions .button {
-      display: block;
-      margin-bottom: 24px;
-    }
-  
-    .loginlink {
-      margin: 0;
-    }
-  }
+}
 
 
-  /* Peguei do styles.global, button da Principal */
+/* Peguei do styles.global, button da Principal */
 
 .button {
   background-color: var(--tertiary-color);
@@ -146,9 +170,12 @@ body {
   text-decoration: none;
 }
 
-.button .buttongradient {
-  background-color: transparent;
+.button:hover {
+
+  background-color: var(--secondary-color);
   background-position: 100%;
   outline: 2px solid var(--secondary-color);
   transform: scale(1.05);
+  transition: 0.5s;
+
 }
