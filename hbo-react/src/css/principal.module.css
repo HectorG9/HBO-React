@@ -1,4 +1,4 @@
-@import url('../styles.global.css'); 
+@import url('../style.global.css'); 
 main {
     background: url('../images/background-movies-series.png') no-repeat;
     background-size: cover;

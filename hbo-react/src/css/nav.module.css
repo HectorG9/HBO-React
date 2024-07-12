@@ -1,4 +1,4 @@
-@import url('../styles.global.css'); 
+@import url('../style.global.css'); 
 .menu {
     background-color: var(--nav-bg-color);
     padding: 12px 16px;

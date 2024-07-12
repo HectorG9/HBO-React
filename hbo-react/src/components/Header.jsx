@@ -1,4 +1,5 @@
 import styles from '../css/header.module.css';
+import { Link } from 'react-router-dom'
 import hbo from '/Senai-frontend/HBO-React/hbo-react/src/images/hbo.png';
 import dc from '/Senai-frontend/HBO-React/hbo-react/src/images/dc.png';
 import wb from '/Senai-frontend/HBO-React/hbo-react/src/images/wb.png';
@@ -25,9 +26,9 @@ export default function Header() {
           <p>Assinaturas a partir de</p>
           <p className={styles.offerPrice}>$14,15<span className={styles.offerPriceSmall}>/mês*</span></p>
         </div>
-        <a href="signIn.jsx" className={styles.button}>
-          Assine agora...
-        </a>
+        <Link to="/SignIn" className={styles.button}>
+          Assine Agora...
+        </Link>
         <p className={styles.textSmall}>*Aplicável ao plano anual com pagamento antecipado</p>
       </div>
     </header>

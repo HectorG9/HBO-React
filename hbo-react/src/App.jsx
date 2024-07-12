@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Principal from './components/Principal';
 import Footer from './components/Footer';
 import './style.global.css';
+import {Routes, Route} from 'react-router-dom'
+import SignIn from './components/SignIn';
 function App() {
   return (
     <>
@@ -10,6 +12,9 @@ function App() {
       <Header/>
       <Principal />
       <Footer />
+      <Routes>
+        <Route path="" element={<SignIn/>} />
+      </Routes>
     </>
   )
 }
