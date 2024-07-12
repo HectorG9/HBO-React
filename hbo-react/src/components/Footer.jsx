@@ -41,6 +41,3 @@ export default function footer() {
     </>
   )
 }
-{/* <nav>
-        <Link to=""></Link>
-      </nav>*/}
