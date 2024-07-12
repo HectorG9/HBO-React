@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Nav from './components/Nav';
 import Header from './components/Header';
 import Principal from './components/Principal';
@@ -10,7 +11,13 @@ function App() {
       <Header/>
       <Principal />
       <Footer />
+      <SignIn/>
     </>
+
+
+   
+       
+
   )
 }
 

@@ -65,7 +65,7 @@ section {
     text-decoration: none;
 }
 
-.button .buttonGradient {
+.button.buttongradient {
     background-color: transparent;
     background-position: 100%;
     outline: 2px solid var(--secondary-color);
@@ -91,14 +91,17 @@ section {
 }*/
 
 /*.menu-logo {
+=======
+.menulogo {
+
     max-width: 160px;
 }
 
-.menu-logo-image {
+.menulogoimage {
     width: 100%;
 }
 
-.menu-item {
+.menuitem {
     margin-right: 24px;
     font-weight: 700;
     font-size: 0.75rem;
@@ -107,13 +110,22 @@ section {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+<<<<<<< HEAD:hbo-react/src/styles.global.css
 */
 /* .menuItemButton {
+=======
+
+.menuitembutton {
+>>>>>>> origin/Fenix:hbo-react/src/style.global.css
     padding: 8px 26px;
     transition: background 1s, color 1s;
 }
 
+<<<<<<< HEAD:hbo-react/src/styles.global.css
 .menuItemButton:hover {
+=======
+.menuitembutton:hover {
+>>>>>>> origin/Fenix:hbo-react/src/style.global.css
     background-color: var(--btn-link-bg-color);
     color: var(--btn-link-color);
 }  */
@@ -122,7 +134,11 @@ section {
 
 /* footer */
 
+<<<<<<< HEAD:hbo-react/src/styles.global.css
 /* .footer-link {
+=======
+.footerlink {
+>>>>>>> origin/Fenix:hbo-react/src/style.global.css
     font-family: 'raleway', sans-serif;
     font-weight: bold;
     color: var(--link-color);
@@ -134,7 +150,7 @@ section {
     transition: color 0.5s;
 }
 
-.footer-link:hover {
+.footerlink:hover {
     color: var(--text-color);
 }
 
@@ -144,10 +160,29 @@ section {
     margin: 0 16px;
 }
 
-.footer-social {
+.footersocial {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 80px;
     gap: 40px;
+<<<<<<< HEAD:hbo-react/src/styles.global.css
 } */
+=======
+}
+
+/* Custom Scroll */
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--tertiary-color);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+  }
+>>>>>>> origin/Fenix:hbo-react/src/style.global.css
