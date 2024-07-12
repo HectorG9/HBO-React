@@ -24,16 +24,16 @@ export default function footer() {
           reservados. HBO Max é usado sob licença.
         </p>
         <div className={style.footersocial}>
-          <a href="https://www.facebook.com/HBOMaxBr/" className="footersocialink">
+          <a href="https://www.facebook.com/HBOMaxBr/" className={style.footersocialink}>
             <img src="./assets/images/fb_0.png" alt="Facebook" />
           </a>
-          <a href="https://twitter.com/HBOMaxBR" className="footersocialink">
+          <a href="https://twitter.com/HBOMaxBR"className={style.footersocialink}>
             <img src="./images/twitter_0.png" alt="Twitter" />
           </a>
-          <a href="https://www.instagram.com/hbomaxbr/" className="footersocialink">
+          <a href="https://www.instagram.com/hbomaxbr/" className={style.footersocialink}>
             <img src="./images/instagram_0.png" alt="Instagram" />
           </a>
-          <a href="https://www.youtube.com/c/hbomaxbr" className="footersocialink">
+          <a href="https://www.youtube.com/c/hbomaxbr" className={style.footersocialink}>
             <img src="./images/youtube_0.png" alt="Youtube" />
           </a>
         </div>
