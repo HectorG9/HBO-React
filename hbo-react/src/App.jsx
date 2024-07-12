@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 import Nav from './components/Nav';
 import Header from './components/Header';
 import Principal from './components/Principal';
 import Footer from './components/Footer';
-import './styles.global.css'
+import './style.global.css';
 function App() {
   return (
     <>
@@ -11,13 +10,7 @@ function App() {
       <Header/>
       <Principal />
       <Footer />
-      <SignIn/>
     </>
-
-
-   
-       
-
   )
 }
 

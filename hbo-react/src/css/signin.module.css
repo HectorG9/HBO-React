@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 /* @import url('../styles.global.css'); */
-=======
 body {
   background-image: url("../images/background-movies-series.png");
   background-size: cover;
@@ -10,62 +9,6 @@ body {
 }
 
 /* Peguei do styles.global, da Footer */
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 24px;
-  text-align: center;
-}
-
-
-.footerlink {
-  font-family: 'raleway', sans-serif;
-  font-weight: bold;
-  color: var(--link-color);
-  text-transform: uppercase;
-  text-decoration: none;
-  margin: 0 14px;
-  letter-spacing: 2px;
-  font-size: 0.875rem;
-  transition: color 0.5s;
-}
-
-.footerlink:hover {
-  color: var(--text-color);
-}
-
-.footerlegal {
-  font-size: 0.75rem;
-  color: var(--link-color);
-  margin: 0 16px;
-
-  /* do textsmall */
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-.footersocial {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 80px;
-  gap: 40px;
-}
-
-.footersocialink {
-
-  font-family: 'raleway', sans-serif;
-  font-weight: bold;
-  color: var(--link-color);
-  text-transform: uppercase;
-  text-decoration: none;
-  margin: 0 14px;
-  letter-spacing: 2px;
-  font-size: 0.875rem;
-  transition: color 0.5s;
-
-}
 
 
 /* Peguei do styles.global */
@@ -193,4 +136,3 @@ body {
   transition: 0.5s;
 
 }
->>>>>>> origin/Fenix
